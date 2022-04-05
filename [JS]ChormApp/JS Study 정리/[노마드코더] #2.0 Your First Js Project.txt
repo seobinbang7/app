@@ -1,0 +1,15 @@
+자바스크립트
+
+cmd로 폴더 생성하고 열기.
+
+#1. mkdir 폴더이름
+#2. code 폴더이름 
+#3. JV 열린다.
+
+html 파일에 링크 연결.
+
+<link rel="stylesheet" href="style1.css" />
+
+
+[노마드코더] 2.1 Basic Data Types
+

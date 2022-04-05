@@ -1,0 +1,33 @@
+#imgBox{
+    display: flex;
+    justify-content: center;
+}
+
+#imgBox-ul{
+    display: flex; 
+}
+
+.imgBox-list{
+    display: flex;
+    flex-direction: column;
+}
+
+.imgBox-list__img{
+    margin: 0px var(--base-space) var(--middle-space) var(--middle-space);
+    transition: transform var(--animation-duration) ease;
+    background-color: white;
+}
+
+.imgBox-list__img:hover{
+    transform:scale(1.1);  
+}
+
+.imgBox-list__span{
+    color:var(--color-blue);
+    opacity: 0;
+    text-align: center;
+}
+
+.imgBox-list:hover .imgBox-list__span{
+    opacity: 1;
+}

@@ -1,0 +1,42 @@
+.logIn-signUp-header-text {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    margin-top: var(--big-space);
+}
+
+#login-signUp-form {
+    padding: 5px 5px;
+    display: flex;
+    flex-direction: column;
+    margin-top: var(--big-space);
+}
+
+#login-signUp-form input {
+    height: 70px;
+    margin-top: var(--base-space);
+    border-radius: 5px;
+}
+
+#sign-find{
+    display: flex;
+    justify-content: center;
+    margin-top: var(--base-space);
+}
+
+#sign-find span{
+    color: var(--color-gray);
+    margin: 0px 15px;
+}
+
+#sign-find a{
+    color: var(--color-cornflowerblue);
+}
+
+#login-submit{
+    cursor: pointer;
+}
+
+#signup-submit{
+    cursor: pointer;
+}

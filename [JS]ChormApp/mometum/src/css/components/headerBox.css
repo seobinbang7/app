@@ -1,0 +1,85 @@
+#header{
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 15px 13px;
+}
+
+.header-column:nth-child(1) {
+    position: relative;
+    }
+
+#header-menu-icon{
+    color: var(--color-cornflowerblue);
+    cursor: pointer;
+}
+
+#header-menu-icon:hover,
+.menu-list a:hover{
+    color: var(--color-blue);
+}
+
+.menu-list{
+    position: absolute;
+    border-radius: 5px;
+    display: none;
+    background-color: var(--color-cornflowerblue);
+}
+
+.menu-list a{
+    color: white;
+    padding: 12px 16px;
+    display: block;
+}
+
+.show{
+    display: block;
+}
+
+#header-bird-a,
+#header-signUp,
+#header-login{
+    cursor: pointer;
+    color: var(--color-cornflowerblue);
+}
+
+#header-signUp:hover,
+#header-login:hover{
+    color: var(--color-blue);
+}
+
+.none{
+    display: none;
+}
+
+
+#header-bird-a{
+    font-size: 50px;
+}
+
+.header-column{
+    width: 33%;
+}
+
+.header-column:nth-child(2){
+    display: flex;
+    justify-content: center;
+}
+
+.header-column:nth-child(3){
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#header-signUp{
+    margin-right: 10px;
+}
+
+#line{
+    border: solid 1px var(--color-blue);
+    margin: var(--big-space) 0px;
+}

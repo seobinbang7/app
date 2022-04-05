@@ -1,0 +1,46 @@
+@import './reset.css';
+
+/* --------- components ---------- */
+@import './components/introduce.css';
+@import './components/headerBox.css';
+
+/* ------------ screen -------------*/
+
+@import './screen/imageBox.css';
+@import './screen/login.css';
+
+:root{
+    /* --- color ---*/
+    --color-gray:#bdc3c7;    
+    --color-cornflowerblue:cornflowerblue;
+    --color-blue:#0652DD;
+    /* --- size --*/
+    --base-space: 10px;
+    --middle-space:25px;
+    --big-space: 100px;
+
+    /* --- annimation */
+    --animation-duration: 300ms;
+}
+
+*{
+    box-sizing: border-box;
+    list-style: none;
+    outline: none;
+}
+
+body{
+    width: 100%;
+    height: 800vh;
+    display: flex;
+    flex-direction: column;
+    padding:var(--base-space);
+}
+
+/* ------- yellowsbird, sparrow, magpie html의 출처 ---------- */
+
+.authorship{
+    font-size: 10px;
+    color: var(--color-blue);
+    text-decoration: none;
+}

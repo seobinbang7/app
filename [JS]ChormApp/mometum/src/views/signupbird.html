@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/style.css" rel="styleSheet"/>
+    <script defer src="../signup.js"></script>
+    <script defer src="../none.js"></script>
+    <title>Sign Up</title>
+</head>
+<body>
+
+    <div id="header">
+        <div class="header-column">
+            <i onclick="showFunction()" id="header-menu-icon" class="fas fa-bars fa-2x"></i>
+                <div class="menu-list" id="menu-dropDown">
+                    <ul>
+                        <li>
+                            <a href="./introducebird.html">bird 소개</a>
+                            <a href="./sparrow.html">참새</a>
+                            <a href="./magpie.html">까치</a>
+                            <a href="./yellowbird.html">노랑턱멧새</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        <div class="header-column">
+            <a id="header-bird-a" href="./index.html">
+                <h1><i class="fas fa-dove"></i>bird</h1>
+            </a>
+        </div>
+        <div class="header-column">
+            <a href="signupbird.html" id="header-signUp" >sign Up</a> <a href="loginbird.html" id="header-login">login</a>
+        </div>
+    </div>
+
+    <div id="line"></div>
+
+    <h1 class="logIn-signUp-header-text"> sign Up </h1>
+
+    <form id="login-signUp-form" class="signUp-form">
+        <input id="signUp-userName" type="text" name="username" placeholder="name" required />
+        <input id="signUp-userEmail" type="email" name="useremail" placeholder="Email" required />
+        <input id="signUp-userPassword" type="password" name="password" placeholder="New password" required />
+        <input type="submit" value="sign Up" id="signup-submit" />
+    </form>
+    
+    <script src="https://kit.fontawesome.com/f1d6ea217b.js"
+    crossorigin="anonymous"></script>
+</body>
+</html>

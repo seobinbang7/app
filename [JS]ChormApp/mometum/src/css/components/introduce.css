@@ -1,0 +1,11 @@
+
+#introduce-span{
+    font-size: 35px;
+}
+
+#introduce p{
+    margin-top: var(--middle-space);
+    line-height: 20px;
+}
+
+

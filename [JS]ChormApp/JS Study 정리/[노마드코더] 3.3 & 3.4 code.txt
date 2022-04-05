@@ -1,0 +1,90 @@
+/* const player = {
+    name:"nico",
+};
+
+console.log(player.name);
+player.ment=("hi");
+console.log(player);
+
+const dayofwark = ["hi","hello",];
+
+console.log(dayofwark[1]);
+dayofwark.push("sun");
+console.log(dayofwark[2]);
+
+const playerUser = {
+    fat : true,
+    old : 10,
+};
+console.log(playerUser.fat);
+playerUser.lastnme="hihi";
+console.log(playerUser.lastnme);
+
+playerUser.old = playerUser.old + 20;
+console.log(playerUser.old);
+
+function testHello(){
+    console.log("sayHello");
+}
+testHello();
+
+        const playerUsers = {
+            name:"nico",
+            old:10,
+                sayHello:function(sayHello, hp){
+                    console.log("hello " + sayHello + " " + playerUsers.old + " nice to meet you!" + hp);
+                },
+        };
+
+playerUsers.sayHello("nico", "lo");
+playerUsers.sayHello("junar", "hoho");
+
+
+
+
+const playerTest ={
+    calculatorTest: function(a, b){
+        return a + b;
+    },
+};
+
+const HelloTest = playerTest.calculatorTest(1, 2);
+console.log(HelloTest);
+
+const kr = 2;
+
+    function calculatorTesty(a){
+        return a + 2;
+    }
+
+    const HelloTestl = calculatorTesty(kr);
+   */ 
+
+
+  /*  const age = parseInt(prompt("How old are you?"));
+    console.log(typeof age); */
+
+    
+
+    /* const args = parseInt(prompt("How old are you?"));
+
+    if(isNaN(args) || age < 0){
+        console.log("please write a real positive number.");
+    } else if ( args < 18){
+        console.log("Sorry you are too young");
+    }   else if(args >= 18 && args < 50){
+        console.log("you can drink.")
+    }  else if(args >= 50 && args < 80){
+        console.log("you should exercise.");
+    } else if(args === 100){ // 100일 경우.
+        console.log("stop!")
+    }  else if(args > 80){ // 81 ~ 99 사이로 진행한다.
+        console.log("you can do whatever you want.");
+}
+*/
+
+/*const title = document.getElementById("title");
+
+title.innerText="you!";
+*/
+ /*console.dir(title);*/

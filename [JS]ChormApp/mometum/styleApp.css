@@ -1,0 +1,99 @@
+
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+html{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+h1{
+    color: teal;
+}
+
+a {
+	color:white;
+    font-size: 15px;
+	text-decoration: none;
+    margin: 15px;
+}
+
+.active{
+    color:tomato;
+    transform: color 3s ease-in-out;   
+}
+
+.hidden{
+    display: none;
+}
+
+#login-Form{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 99;
+    position: absolute;
+    top: 10px;
+}
+
+.Hello2{
+    width: 380px;
+    margin-top: 90px;  
+}
+
+.loginInput{
+    width: 200px;
+    height: 30px;
+    border: none;
+    background: none;
+}
+
+.Hello2 a{
+    display: flex;  
+    justify-content: center;
+    align-items:flex-end;
+}
+
+#clock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 80px;
+}
+
+#todo-form{
+    z-index: 100;
+    position: absolute;
+    top:380px;
+    left:105px;
+}
+
+#todo-form input{
+    font-size: 27px;
+    width: auto;
+    border: none;
+    background: none;
+}
+
+input:focus{
+	outline:none;
+}
+
+.loginButton{
+   border-color: teal;
+    border-radius: 10px;
+    background: none;
+}
